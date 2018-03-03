@@ -1,0 +1,458 @@
+
+2018-02-21 19:07:53.610422 : -----------------NEW START
+2018-02-21 19:07:53.801409 : 0 : suits assigned
+2018-02-21 19:07:53.816440 : 1 : faces assigned
+2018-02-21 19:07:53.832442 : 2 : vals assigned
+2018-02-21 19:07:56.140558 : 3 : Game Starts game_round: 0 <>
+2018-02-21 19:07:56.155557 : 4 : Deck Created and shuffled <createDeck()>
+2018-02-21 19:07:56.166565 : 5 : Deck object created <Deck->__init__()>
+2018-02-21 19:07:56.176647 : 6 : Deck shuffled <Deck->deckShuffle()>
+2018-02-21 19:07:58.387982 : 7 : Player object created <Player->__init__()>
+2018-02-21 19:07:58.431985 : 8 : Bankrolled for 100 bucks <Player->__init__()>
+2018-02-21 19:07:58.467993 : 9 : Hand object <Hand->__init__()>
+2018-02-21 19:07:58.489994 : 10 : Hand object <Hand->__init__()>
+2018-02-21 19:07:59.313354 : 11 : Bet value set <setPlayerBet()>
+2018-02-21 19:07:59.331354 : 12 : Bankroll deducted for 20 bucks <Player->subBankRoll()>
+2018-02-21 19:07:59.346398 : 13 : Bet set for the hand <Hand->setBet()>
+2018-02-21 19:07:59.372349 : 14 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:07:59.396359 : 15 : Hand card added <Hand->addCard()>
+2018-02-21 19:07:59.412362 : 16 : Card object created <Card->__init__()>
+2018-02-21 19:07:59.427361 : 17 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:07:59.446360 : 18 : Hand card added <Hand->addCard()>
+2018-02-21 19:07:59.461357 : 19 : Card object created <Card->__init__()>
+2018-02-21 19:08:02.275074 : 20 : hit <gameOption()>
+2018-02-21 19:08:02.296081 : 21 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:08:02.317051 : 22 : Hand card added <Hand->addCard()>
+2018-02-21 19:08:02.350085 : 23 : Card object created <Card->__init__()>
+2018-02-21 19:08:02.390087 : 24 : Check for win <checkForWin()>
+2018-02-21 19:08:02.429087 : 25 : game_round: 1 <>
+2018-02-21 19:08:04.912514 : 26 : hit <gameOption()>
+2018-02-21 19:08:04.933484 : 27 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:08:04.951520 : 28 : Hand card added <Hand->addCard()>
+2018-02-21 19:08:04.981509 : 29 : Card object created <Card->__init__()>
+2018-02-21 19:08:04.999521 : 30 : Check for win <checkForWin()>
+2018-02-21 19:08:05.015521 : 31 : game_round: 1 <>
+2018-02-21 19:08:06.849677 : 32 : stand <gameOption()>
+2018-02-21 19:08:06.897703 : 33 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:08:06.928713 : 34 : Hand card added <Hand->addCard()>
+2018-02-21 19:08:06.962709 : 35 : Card object created <Card->__init__()>
+2018-02-21 19:08:06.980760 : 36 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:08:06.997710 : 37 : Hand card added <Hand->addCard()>
+2018-02-21 19:08:07.012720 : 38 : Card object created <Card->__init__()>
+2018-02-21 19:08:07.027713 : 39 : Check for win <checkForWin()>
+2018-02-21 19:08:07.050713 : 40 : Player wins ?stand = True <checkForWin()>
+2018-02-21 19:08:07.067721 : 41 : Bankroll added for 40 bucks <Player->addBankRoll()>
+2018-02-21 19:08:07.082723 : 42 : Bet cleared <Hand->clsBet()>
+2018-02-21 19:08:07.100797 : 43 : Hand cleared <Hand->clsHand()>
+2018-02-21 19:08:07.115716 : 44 : Hand cleared <Hand->clsHand()>
+2018-02-21 19:08:07.131724 : 45 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:08:07.148717 : 46 : Hand card added <Hand->addCard()>
+2018-02-21 19:08:07.163793 : 47 : Card object created <Card->__init__()>
+2018-02-21 19:08:07.178723 : 48 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:08:07.193800 : 49 : Hand card added <Hand->addCard()>
+2018-02-21 19:08:07.208780 : 50 : Card object created <Card->__init__()>
+2018-02-21 19:08:13.035187 : 51 : Bet value set <setPlayerBet()>
+2018-02-21 19:08:13.054217 : 52 : Bankroll deducted for 80 bucks <Player->subBankRoll()>
+2018-02-21 19:08:13.073220 : 53 : Bet set for the hand <Hand->setBet()>
+2018-02-21 19:08:13.099214 : 54 : game_round: 2 <>
+2018-02-21 19:08:14.881035 : 55 : hit <gameOption()>
+2018-02-21 19:08:14.918032 : 56 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:08:14.942032 : 57 : Hand card added <Hand->addCard()>
+2018-02-21 19:08:14.966043 : 58 : Card object created <Card->__init__()>
+2018-02-21 19:08:14.981083 : 59 : Check for win <checkForWin()>
+2018-02-21 19:08:14.998033 : 60 : game_round: 2 <>
+2018-02-21 19:08:16.583378 : 61 : hit <gameOption()>
+2018-02-21 19:08:16.603376 : 62 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:08:16.631388 : 63 : Hand card added <Hand->addCard()>
+2018-02-21 19:08:16.652356 : 64 : Card object created <Card->__init__()>
+2018-02-21 19:08:16.675357 : 65 : Check for win <checkForWin()>
+2018-02-21 19:08:16.696358 : 66 : game_round: 2 <>
+2018-02-21 19:08:18.187195 : 67 : hit <gameOption()>
+2018-02-21 19:08:18.211196 : 68 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:08:18.231191 : 69 : Hand card added <Hand->addCard()>
+2018-02-21 19:08:18.262199 : 70 : Card object created <Card->__init__()>
+2018-02-21 19:08:18.280196 : 71 : Check for win <checkForWin()>
+2018-02-21 19:08:18.297202 : 72 : game_round: 2 <>
+2018-02-21 19:08:19.647499 : 73 : hit <gameOption()>
+2018-02-21 19:08:19.673468 : 74 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:08:19.690498 : 75 : Hand card added <Hand->addCard()>
+2018-02-21 19:08:19.706470 : 76 : Card object created <Card->__init__()>
+2018-02-21 19:08:19.741472 : 77 : Check for win <checkForWin()>
+2018-02-21 19:08:19.759501 : 78 : Player bust ?stand = False <checkForWin()>
+2018-02-21 19:08:19.780506 : 79 : Bet cleared <Hand->clsBet()>
+2018-02-21 19:08:19.809510 : 80 : Hand cleared <Hand->clsHand()>
+2018-02-21 19:08:19.826525 : 81 : Hand cleared <Hand->clsHand()>
+2018-02-21 19:08:19.842507 : 82 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:08:19.859513 : 83 : Hand card added <Hand->addCard()>
+2018-02-21 19:08:19.876509 : 84 : Card object created <Card->__init__()>
+2018-02-21 19:08:19.896509 : 85 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:08:19.912516 : 86 : Hand card added <Hand->addCard()>
+2018-02-21 19:08:19.927557 : 87 : Card object created <Card->__init__()>
+2018-02-21 19:08:42.228674 : 88 : Bet value set <setPlayerBet()>
+2018-02-21 19:08:42.250667 : 89 : Bankroll deducted for 20 bucks <Player->subBankRoll()>
+2018-02-21 19:08:42.290645 : 90 : Bet set for the hand <Hand->setBet()>
+2018-02-21 19:08:42.307679 : 91 : game_round: 3 <>
+2018-02-21 19:08:44.356325 : 92 : quit <gameOption()>
+2018-02-21 19:10:53.657702 : -----------------NEW START
+2018-02-21 19:10:53.777708 : 0 : suits assigned
+2018-02-21 19:10:53.795740 : 1 : faces assigned
+2018-02-21 19:10:53.812691 : 2 : vals assigned
+2018-02-21 19:10:57.115857 : 3 : Game Starts game_round: 0 <>
+2018-02-21 19:10:57.129917 : 4 : Deck Created and shuffled <createDeck()>
+2018-02-21 19:10:57.143852 : 5 : Deck object created <Deck->__init__()>
+2018-02-21 19:10:57.157889 : 6 : Deck shuffled <Deck->deckShuffle()>
+2018-02-21 19:10:59.970038 : 7 : Player object created <Player->__init__()>
+2018-02-21 19:10:59.993067 : 8 : Bankrolled for 1000 bucks <Player->__init__()>
+2018-02-21 19:11:00.013068 : 9 : Hand object <Hand->__init__()>
+2018-02-21 19:11:00.035065 : 10 : Hand object <Hand->__init__()>
+2018-02-21 19:11:02.350190 : 11 : Bet value set <setPlayerBet()>
+2018-02-21 19:11:02.398191 : 12 : Bankroll deducted for 500 bucks <Player->subBankRoll()>
+2018-02-21 19:11:02.429197 : 13 : Bet set for the hand <Hand->setBet()>
+2018-02-21 19:11:02.474170 : 14 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:11:02.507201 : 15 : Hand card added <Hand->addCard()>
+2018-02-21 19:11:02.525205 : 16 : Card object created <Card->__init__()>
+2018-02-21 19:11:02.572208 : 17 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:11:02.597205 : 18 : Hand card added <Hand->addCard()>
+2018-02-21 19:11:02.613204 : 19 : Card object created <Card->__init__()>
+2018-02-21 19:11:04.682289 : 20 : hit <gameOption()>
+2018-02-21 19:11:04.700289 : 21 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:11:04.716320 : 22 : Hand card added <Hand->addCard()>
+2018-02-21 19:11:04.736323 : 23 : Card object created <Card->__init__()>
+2018-02-21 19:11:04.752322 : 24 : Check for win <checkForWin()>
+2018-02-21 19:11:04.764353 : 25 : game_round: 1 <>
+2018-02-21 19:11:05.916386 : 26 : hit <gameOption()>
+2018-02-21 19:11:05.932381 : 27 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:11:05.946355 : 28 : Hand card added <Hand->addCard()>
+2018-02-21 19:11:05.975383 : 29 : Card object created <Card->__init__()>
+2018-02-21 19:11:05.990389 : 30 : Check for win <checkForWin()>
+2018-02-21 19:11:06.003389 : 31 : Player bust ?stand = False <checkForWin()>
+2018-02-21 19:11:06.018382 : 32 : Bet cleared <Hand->clsBet()>
+2018-02-21 19:11:06.032391 : 33 : Hand cleared <Hand->clsHand()>
+2018-02-21 19:11:06.046392 : 34 : Hand cleared <Hand->clsHand()>
+2018-02-21 19:11:06.062392 : 35 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:11:06.075385 : 36 : Hand card added <Hand->addCard()>
+2018-02-21 19:11:06.089391 : 37 : Card object created <Card->__init__()>
+2018-02-21 19:11:06.108364 : 38 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:11:06.127396 : 39 : Hand card added <Hand->addCard()>
+2018-02-21 19:11:06.144333 : 40 : Card object created <Card->__init__()>
+2018-02-21 19:11:11.568394 : 41 : Bet value set <setPlayerBet()>
+2018-02-21 19:11:11.598368 : 42 : Bankroll deducted for 500 bucks <Player->subBankRoll()>
+2018-02-21 19:11:11.621402 : 43 : Bet set for the hand <Hand->setBet()>
+2018-02-21 19:11:11.650401 : 44 : game_round: 2 <>
+2018-02-21 19:11:21.489165 : 45 : hit <gameOption()>
+2018-02-21 19:11:21.509171 : 46 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:11:21.530173 : 47 : Hand card added <Hand->addCard()>
+2018-02-21 19:11:21.559172 : 48 : Card object created <Card->__init__()>
+2018-02-21 19:11:21.576108 : 49 : Check for win <checkForWin()>
+2018-02-21 19:11:21.601170 : 50 : game_round: 2 <>
+2018-02-21 19:11:23.774614 : 51 : hit <gameOption()>
+2018-02-21 19:11:23.808607 : 52 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:11:23.829615 : 53 : Hand card added <Hand->addCard()>
+2018-02-21 19:11:23.881612 : 54 : Card object created <Card->__init__()>
+2018-02-21 19:11:23.922588 : 55 : Check for win <checkForWin()>
+2018-02-21 19:11:23.950590 : 56 : game_round: 2 <>
+2018-02-21 19:11:25.535897 : 57 : hit <gameOption()>
+2018-02-21 19:11:25.557866 : 58 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:11:25.575946 : 59 : Hand card added <Hand->addCard()>
+2018-02-21 19:11:25.607896 : 60 : Card object created <Card->__init__()>
+2018-02-21 19:11:25.625897 : 61 : Check for win <checkForWin()>
+2018-02-21 19:11:25.644905 : 62 : Player wins ?stand = False <checkForWin()>
+2018-02-21 19:11:25.660873 : 63 : Bankroll added for 1000 bucks <Player->addBankRoll()>
+2018-02-21 19:11:25.677899 : 64 : Bet cleared <Hand->clsBet()>
+2018-02-21 19:11:25.702905 : 65 : Hand cleared <Hand->clsHand()>
+2018-02-21 19:11:25.718903 : 66 : Hand cleared <Hand->clsHand()>
+2018-02-21 19:11:25.734912 : 67 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:11:25.755906 : 68 : Hand card added <Hand->addCard()>
+2018-02-21 19:11:25.772905 : 69 : Card object created <Card->__init__()>
+2018-02-21 19:11:25.790910 : 70 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:11:25.807883 : 71 : Hand card added <Hand->addCard()>
+2018-02-21 19:11:25.826914 : 72 : Card object created <Card->__init__()>
+2018-02-21 19:11:39.171501 : 73 : Bet value set <setPlayerBet()>
+2018-02-21 19:11:39.226504 : 74 : Bankroll deducted for 10 bucks <Player->subBankRoll()>
+2018-02-21 19:11:39.273474 : 75 : Bet set for the hand <Hand->setBet()>
+2018-02-21 19:11:39.297500 : 76 : game_round: 3 <>
+2018-02-21 19:11:40.654548 : 77 : quit <gameOption()>
+2018-02-21 19:19:51.653455 : -----------------NEW START
+2018-02-21 19:19:51.767465 : 0 : suits assigned
+2018-02-21 19:19:51.786505 : 1 : faces assigned
+2018-02-21 19:19:51.803468 : 2 : vals assigned
+2018-02-21 19:19:54.784203 : 3 : Game Starts game_round: 0 <>
+2018-02-21 19:19:54.805203 : 4 : Deck Created and shuffled <createDeck()>
+2018-02-21 19:19:54.822206 : 5 : Deck object created <Deck->__init__()>
+2018-02-21 19:19:54.848274 : 6 : Deck shuffled <Deck->deckShuffle()>
+2018-02-21 19:20:00.761394 : 7 : Player object created <Player->__init__()>
+2018-02-21 19:20:00.786395 : 8 : Bankrolled for 100 bucks <Player->__init__()>
+2018-02-21 19:20:00.807421 : 9 : Hand object <Hand->__init__()>
+2018-02-21 19:20:00.837429 : 10 : Hand object <Hand->__init__()>
+2018-02-21 19:20:02.247504 : 11 : wrong input ?type(amt) !int|str <gameOption()>
+2018-02-21 19:20:07.373091 : 12 : wrong input ?type(amt) !int|str <gameOption()>
+2018-02-21 19:20:13.771990 : 13 : wrong input ?type(amt) !int|str <gameOption()>
+2018-02-21 19:20:15.151376 : 14 : wrong input ?type(amt) !int|str <gameOption()>
+2018-02-21 19:22:18.773011 : -----------------NEW START
+2018-02-21 19:22:18.886017 : 0 : suits assigned
+2018-02-21 19:22:18.910018 : 1 : faces assigned
+2018-02-21 19:22:18.926987 : 2 : vals assigned
+2018-02-21 19:22:21.735167 : 3 : Game Starts game_round: 0 <>
+2018-02-21 19:22:21.756171 : 4 : Deck Created and shuffled <createDeck()>
+2018-02-21 19:22:21.774199 : 5 : Deck object created <Deck->__init__()>
+2018-02-21 19:22:21.791165 : 6 : Deck shuffled <Deck->deckShuffle()>
+2018-02-21 19:22:24.897696 : 7 : Player object created <Player->__init__()>
+2018-02-21 19:22:24.925666 : 8 : Bankrolled for 100 bucks <Player->__init__()>
+2018-02-21 19:22:24.948692 : 9 : Hand object <Hand->__init__()>
+2018-02-21 19:22:24.983722 : 10 : Hand object <Hand->__init__()>
+2018-02-21 19:22:26.744797 : 11 : wrong input ?type(amt) = str <gameOption()>
+2018-02-21 19:22:29.601965 : 12 : quit ?type(amt) = str <gameOption()>
+2018-02-21 19:25:41.932546 : -----------------NEW START
+2018-02-21 19:25:42.081526 : 0 : suits assigned
+2018-02-21 19:25:42.096559 : 1 : faces assigned
+2018-02-21 19:25:42.111528 : 2 : vals assigned
+2018-02-21 19:25:45.623745 : 3 : Game Starts game_round: 0 <>
+2018-02-21 19:25:45.654715 : 4 : Deck Created and shuffled <createDeck()>
+2018-02-21 19:25:45.675749 : 5 : Deck object created <Deck->__init__()>
+2018-02-21 19:25:45.692717 : 6 : Deck shuffled <Deck->deckShuffle()>
+2018-02-21 19:25:47.617848 : 7 : Player object created <Player->__init__()>
+2018-02-21 19:25:47.641855 : 8 : Bankrolled for 100 bucks <Player->__init__()>
+2018-02-21 19:25:47.662851 : 9 : Hand object <Hand->__init__()>
+2018-02-21 19:25:47.701856 : 10 : Hand object <Hand->__init__()>
+2018-02-21 19:25:48.840911 : 11 : wrong input ?type(amt) = str <gameOption()>
+2018-02-21 19:27:19.303798 : -----------------NEW START
+2018-02-21 19:27:19.498813 : 0 : suits assigned
+2018-02-21 19:27:19.521814 : 1 : faces assigned
+2018-02-21 19:27:19.539812 : 2 : vals assigned
+2018-02-21 19:27:22.716978 : 3 : Game Starts game_round: 0 <>
+2018-02-21 19:27:22.734983 : 4 : Deck Created and shuffled <createDeck()>
+2018-02-21 19:27:22.755983 : 5 : Deck object created <Deck->__init__()>
+2018-02-21 19:27:22.771956 : 6 : Deck shuffled <Deck->deckShuffle()>
+2018-02-21 19:27:24.744090 : 7 : Player object created <Player->__init__()>
+2018-02-21 19:27:24.780094 : 8 : Bankrolled for 100 bucks <Player->__init__()>
+2018-02-21 19:27:24.804096 : 9 : Hand object <Hand->__init__()>
+2018-02-21 19:27:24.820096 : 10 : Hand object <Hand->__init__()>
+2018-02-21 19:27:26.283172 : 11 : wrong input ?type(amt) = str <gameOption()>
+2018-02-21 19:29:09.453315 : -----------------NEW START
+2018-02-21 19:29:09.577292 : 0 : suits assigned
+2018-02-21 19:29:09.599323 : 1 : faces assigned
+2018-02-21 19:29:09.615293 : 2 : vals assigned
+2018-02-21 19:29:12.187462 : 3 : Game Starts game_round: 0 <>
+2018-02-21 19:29:12.210458 : 4 : Deck Created and shuffled <createDeck()>
+2018-02-21 19:29:12.226465 : 5 : Deck object created <Deck->__init__()>
+2018-02-21 19:29:12.241457 : 6 : Deck shuffled <Deck->deckShuffle()>
+2018-02-21 19:29:14.878606 : 7 : Player object created <Player->__init__()>
+2018-02-21 19:29:14.895599 : 8 : Bankrolled for 1000 bucks <Player->__init__()>
+2018-02-21 19:29:14.949604 : 9 : Hand object <Hand->__init__()>
+2018-02-21 19:29:14.966579 : 10 : Hand object <Hand->__init__()>
+2018-02-21 19:29:16.526689 : 11 : wrong input ?type(amt) = str <gameOption()>
+2018-02-21 19:30:01.870103 : -----------------NEW START
+2018-02-21 19:30:01.987078 : 0 : suits assigned
+2018-02-21 19:30:02.007109 : 1 : faces assigned
+2018-02-21 19:30:02.022107 : 2 : vals assigned
+2018-02-21 19:30:05.930319 : 3 : Game Starts game_round: 0 <>
+2018-02-21 19:30:05.959321 : 4 : Deck Created and shuffled <createDeck()>
+2018-02-21 19:30:05.978323 : 5 : Deck object created <Deck->__init__()>
+2018-02-21 19:30:05.996291 : 6 : Deck shuffled <Deck->deckShuffle()>
+2018-02-21 19:30:09.031482 : 7 : Player object created <Player->__init__()>
+2018-02-21 19:30:09.062487 : 8 : Bankrolled for 100 bucks <Player->__init__()>
+2018-02-21 19:30:09.088483 : 9 : Hand object <Hand->__init__()>
+2018-02-21 19:30:09.120457 : 10 : Hand object <Hand->__init__()>
+2018-02-21 19:31:42.818461 : -----------------NEW START
+2018-02-21 19:31:42.946499 : 0 : suits assigned
+2018-02-21 19:31:42.964492 : 1 : faces assigned
+2018-02-21 19:31:42.981501 : 2 : vals assigned
+2018-02-21 19:32:07.065004 : -----------------NEW START
+2018-02-21 19:32:07.218012 : 0 : suits assigned
+2018-02-21 19:32:07.250968 : 1 : faces assigned
+2018-02-21 19:32:07.266015 : 2 : vals assigned
+2018-02-21 19:32:10.356181 : 3 : Game Starts game_round: 0 <>
+2018-02-21 19:32:10.404116 : 4 : Deck Created and shuffled <createDeck()>
+2018-02-21 19:32:10.423181 : 5 : Deck object created <Deck->__init__()>
+2018-02-21 19:32:10.466178 : 6 : Deck shuffled <Deck->deckShuffle()>
+2018-02-21 19:32:13.094803 : 7 : Player object created <Player->__init__()>
+2018-02-21 19:32:13.114838 : 8 : Bankrolled for 100 bucks <Player->__init__()>
+2018-02-21 19:32:13.132828 : 9 : Hand object <Hand->__init__()>
+2018-02-21 19:32:13.163836 : 10 : Hand object <Hand->__init__()>
+2018-02-21 19:32:37.782338 : -----------------NEW START
+2018-02-21 19:32:37.932417 : 0 : suits assigned
+2018-02-21 19:32:37.951344 : 1 : faces assigned
+2018-02-21 19:32:37.971317 : 2 : vals assigned
+2018-02-21 19:32:40.774340 : 3 : Game Starts game_round: 0 <>
+2018-02-21 19:32:40.794261 : 4 : Deck Created and shuffled <createDeck()>
+2018-02-21 19:32:40.812284 : 5 : Deck object created <Deck->__init__()>
+2018-02-21 19:32:40.831261 : 6 : Deck shuffled <Deck->deckShuffle()>
+2018-02-21 19:32:42.858801 : 7 : Player object created <Player->__init__()>
+2018-02-21 19:32:42.882776 : 8 : Bankrolled for 100 bucks <Player->__init__()>
+2018-02-21 19:32:42.900806 : 9 : Hand object <Hand->__init__()>
+2018-02-21 19:32:42.939807 : 10 : Hand object <Hand->__init__()>
+2018-02-21 19:35:38.839947 : -----------------NEW START
+2018-02-21 19:35:39.087935 : 0 : suits assigned
+2018-02-21 19:35:39.106964 : 1 : faces assigned
+2018-02-21 19:35:39.126958 : 2 : vals assigned
+2018-02-21 19:35:43.583260 : 3 : Game Starts game_round: 0 <>
+2018-02-21 19:35:43.604334 : 4 : Deck Created and shuffled <createDeck()>
+2018-02-21 19:35:43.622260 : 5 : Deck object created <Deck->__init__()>
+2018-02-21 19:35:43.638256 : 6 : Deck shuffled <Deck->deckShuffle()>
+2018-02-21 19:35:45.797481 : 7 : Player object created <Player->__init__()>
+2018-02-21 19:35:45.821491 : 8 : Bankrolled for 100 bucks <Player->__init__()>
+2018-02-21 19:35:45.838484 : 9 : Hand object <Hand->__init__()>
+2018-02-21 19:35:45.874484 : 10 : Hand object <Hand->__init__()>
+2018-02-21 19:35:46.839547 : 11 : Bet value set ?type(amt) = int <setPlayerBet()>
+2018-02-21 19:35:46.862540 : 12 : Bankroll deducted for 20 bucks <Player->subBankRoll()>
+2018-02-21 19:35:46.915514 : 13 : Bet set for the hand <Hand->setBet()>
+2018-02-21 19:35:46.981543 : 14 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:35:47.013552 : 15 : Hand card added <Hand->addCard()>
+2018-02-21 19:35:47.031554 : 16 : Card object created <Card->__init__()>
+2018-02-21 19:35:47.050522 : 17 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:35:47.071554 : 18 : Hand card added <Hand->addCard()>
+2018-02-21 19:35:47.092547 : 19 : Card object created <Card->__init__()>
+2018-02-21 19:35:49.083656 : 20 : hit <gameOption()>
+2018-02-21 19:35:49.159660 : 21 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:35:49.214660 : 22 : Hand card added <Hand->addCard()>
+2018-02-21 19:35:49.238671 : 23 : Card object created <Card->__init__()>
+2018-02-21 19:35:49.271665 : 24 : Check for win <checkForWin()>
+2018-02-21 19:35:49.289674 : 25 : game_round: 1 <>
+2018-02-21 19:35:50.508736 : 26 : hit <gameOption()>
+2018-02-21 19:35:50.540706 : 27 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:35:50.563733 : 28 : Hand card added <Hand->addCard()>
+2018-02-21 19:35:50.581741 : 29 : Card object created <Card->__init__()>
+2018-02-21 19:35:50.596737 : 30 : Check for win <checkForWin()>
+2018-02-21 19:35:50.607742 : 31 : game_round: 1 <>
+2018-02-21 19:35:52.072719 : 32 : hit <gameOption()>
+2018-02-21 19:35:52.098688 : 33 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:35:52.115723 : 34 : Hand card added <Hand->addCard()>
+2018-02-21 19:35:52.154692 : 35 : Card object created <Card->__init__()>
+2018-02-21 19:35:52.173738 : 36 : Check for win <checkForWin()>
+2018-02-21 19:35:52.191698 : 37 : game_round: 1 <>
+2018-02-21 19:35:53.793215 : 38 : hit <gameOption()>
+2018-02-21 19:35:53.817217 : 39 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:35:53.837223 : 40 : Hand card added <Hand->addCard()>
+2018-02-21 19:35:53.877195 : 41 : Card object created <Card->__init__()>
+2018-02-21 19:35:53.903230 : 42 : Check for win <checkForWin()>
+2018-02-21 19:35:53.927307 : 43 : game_round: 1 <>
+2018-02-21 19:35:55.421091 : 44 : hit <gameOption()>
+2018-02-21 19:35:55.448099 : 45 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:35:55.473095 : 46 : Hand card added <Hand->addCard()>
+2018-02-21 19:35:55.512071 : 47 : Card object created <Card->__init__()>
+2018-02-21 19:35:55.533096 : 48 : Check for win <checkForWin()>
+2018-02-21 19:35:55.550097 : 49 : Player bust ?stand = False <checkForWin()>
+2018-02-21 19:35:55.565099 : 50 : Bet cleared <Hand->clsBet()>
+2018-02-21 19:35:55.588103 : 51 : Hand cleared <Hand->clsHand()>
+2018-02-21 19:35:55.605076 : 52 : Hand cleared <Hand->clsHand()>
+2018-02-21 19:35:55.619103 : 53 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:35:55.634105 : 54 : Hand card added <Hand->addCard()>
+2018-02-21 19:35:55.649106 : 55 : Card object created <Card->__init__()>
+2018-02-21 19:35:55.667102 : 56 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:35:55.687114 : 57 : Hand card added <Hand->addCard()>
+2018-02-21 19:35:55.704111 : 58 : Card object created <Card->__init__()>
+2018-02-21 19:36:00.684788 : 59 : Bet value set ?type(amt) = int <setPlayerBet()>
+2018-02-21 19:36:00.712788 : 60 : Bankroll deducted for 20 bucks <Player->subBankRoll()>
+2018-02-21 19:36:00.731790 : 61 : Bet set for the hand <Hand->setBet()>
+2018-02-21 19:36:00.759792 : 62 : game_round: 2 <>
+2018-02-21 19:36:06.547111 : 63 : hit <gameOption()>
+2018-02-21 19:36:06.593105 : 64 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:36:06.632047 : 65 : Hand card added <Hand->addCard()>
+2018-02-21 19:36:06.649115 : 66 : Card object created <Card->__init__()>
+2018-02-21 19:36:06.671107 : 67 : Check for win <checkForWin()>
+2018-02-21 19:36:06.688112 : 68 : game_round: 2 <>
+2018-02-21 19:36:10.544462 : 69 : hit <gameOption()>
+2018-02-21 19:36:10.576463 : 70 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:36:10.597463 : 71 : Hand card added <Hand->addCard()>
+2018-02-21 19:36:10.628462 : 72 : Card object created <Card->__init__()>
+2018-02-21 19:36:10.667459 : 73 : Check for win <checkForWin()>
+2018-02-21 19:36:10.692463 : 74 : game_round: 2 <>
+2018-02-21 19:36:12.560536 : 75 : stand <gameOption()>
+2018-02-21 19:36:12.586568 : 76 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:36:12.600562 : 77 : Hand card added <Hand->addCard()>
+2018-02-21 19:36:12.623564 : 78 : Card object created <Card->__init__()>
+2018-02-21 19:36:12.639571 : 79 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:36:12.657566 : 80 : Hand card added <Hand->addCard()>
+2018-02-21 19:36:12.671568 : 81 : Card object created <Card->__init__()>
+2018-02-21 19:36:12.683649 : 82 : Check for win <checkForWin()>
+2018-02-21 19:36:12.700572 : 83 : Player bust ?stand = True <checkForWin()>
+2018-02-21 19:36:12.718570 : 84 : Bet cleared <Hand->clsBet()>
+2018-02-21 19:36:12.732599 : 85 : Hand cleared <Hand->clsHand()>
+2018-02-21 19:36:12.744569 : 86 : Hand cleared <Hand->clsHand()>
+2018-02-21 19:36:12.757546 : 87 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:36:12.770579 : 88 : Hand card added <Hand->addCard()>
+2018-02-21 19:36:12.782573 : 89 : Card object created <Card->__init__()>
+2018-02-21 19:36:12.795576 : 90 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:36:12.807579 : 91 : Hand card added <Hand->addCard()>
+2018-02-21 19:36:12.819574 : 92 : Card object created <Card->__init__()>
+2018-02-21 19:36:23.537828 : 93 : Bet value set ?type(amt) = int <setPlayerBet()>
+2018-02-21 19:36:23.563824 : 94 : Bankroll deducted for 20 bucks <Player->subBankRoll()>
+2018-02-21 19:36:23.596827 : 95 : Bet set for the hand <Hand->setBet()>
+2018-02-21 19:36:23.617824 : 96 : game_round: 3 <>
+2018-02-21 19:36:36.149461 : 97 : quit <gameOption()>
+2018-02-21 19:48:55.128915 : -----------------NEW START
+2018-02-21 19:48:55.285927 : 0 : suits assigned
+2018-02-21 19:48:55.302958 : 1 : faces assigned
+2018-02-21 19:48:55.318927 : 2 : vals assigned
+2018-02-21 19:48:58.568067 : 3 : Game Starts game_round: 0 <>
+2018-02-21 19:48:58.590934 : 4 : Deck Created and shuffled <createDeck()>
+2018-02-21 19:48:58.611000 : 5 : Deck object created <Deck->__init__()>
+2018-02-21 19:48:58.630007 : 6 : Deck shuffled <Deck->deckShuffle()>
+2018-02-21 19:49:01.257464 : 7 : Player object created <Player->__init__()>
+2018-02-21 19:49:01.280492 : 8 : Bankrolled for 100 bucks <Player->__init__()>
+2018-02-21 19:49:01.298492 : 9 : Hand object <Hand->__init__()>
+2018-02-21 19:49:01.330496 : 10 : Hand object <Hand->__init__()>
+2018-02-21 19:49:03.601138 : 11 : Bet value set ?type(amt) = int <setPlayerBet()>
+2018-02-21 19:49:03.632165 : 12 : Bankroll deducted for 20 bucks <Player->subBankRoll()>
+2018-02-21 19:49:03.652171 : 13 : Bet set for the hand <Hand->setBet()>
+2018-02-21 19:49:03.702169 : 14 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:49:03.728144 : 15 : Hand card added <Hand->addCard()>
+2018-02-21 19:49:03.757145 : 16 : Card object created <Card->__init__()>
+2018-02-21 19:49:03.778182 : 17 : Deck popped <Deck->deckPopCard()>
+2018-02-21 19:49:03.798173 : 18 : Hand card added <Hand->addCard()>
+2018-02-21 19:49:03.817180 : 19 : Card object created <Card->__init__()>
+2018-02-21 19:56:11.813084 : 20 : quit <gameOption()>
+2018-02-21 19:58:55.793639 : -----------------NEW START
+2018-02-21 19:58:55.919669 : 0 : suits assigned
+2018-02-21 19:58:55.941670 : 1 : faces assigned
+2018-02-21 19:58:55.960672 : 2 : vals assigned
+2018-02-21 19:58:59.221996 : 3 : Game Starts game_round: 0 <>
+2018-02-21 19:58:59.241852 : 4 : Deck Created and shuffled <createDeck()>
+2018-02-21 19:58:59.258849 : 5 : Deck object created <Deck->__init__()>
+2018-02-21 19:58:59.276847 : 6 : Deck shuffled <Deck->deckShuffle()>
+2018-02-21 20:02:46.482690 : -----------------NEW START
+2018-02-21 20:02:46.921540 : 0 : suits assigned
+2018-02-21 20:02:46.942680 : 1 : faces assigned
+2018-02-21 20:02:46.962604 : 2 : vals assigned
+2018-02-21 20:02:53.970364 : 3 : Game Starts game_round: 0 <>
+2018-02-21 20:02:53.993389 : 4 : Deck Created and shuffled <createDeck()>
+2018-02-21 20:02:54.031395 : 5 : Deck object created <Deck->__init__()>
+2018-02-21 20:02:54.060394 : 6 : Deck shuffled <Deck->deckShuffle()>
+2018-02-21 20:02:56.717228 : 7 : Player object created <Player->__init__()>
+2018-02-21 20:02:56.779257 : 8 : Bankrolled for 100 bucks <Player->__init__()>
+2018-02-21 20:02:56.818264 : 9 : Hand object <Hand->__init__()>
+2018-02-21 20:02:56.849258 : 10 : Hand object <Hand->__init__()>
+2018-02-21 20:02:58.556452 : 11 : Bet value set ?type(amt) = int <setPlayerBet()>
+2018-02-21 20:02:58.582479 : 12 : Bankroll deducted for 20 bucks <Player->subBankRoll()>
+2018-02-21 20:02:58.602483 : 13 : Bet set for the hand <Hand->setBet()>
+2018-02-21 20:02:58.637484 : 14 : Deck popped <Deck->deckPopCard()>
+2018-02-21 20:02:58.657487 : 15 : Hand card added <Hand->addCard()>
+2018-02-21 20:02:58.679466 : 16 : Card object created <Card->__init__()>
+2018-02-21 20:02:58.699436 : 17 : Deck popped <Deck->deckPopCard()>
+2018-02-21 20:02:58.719493 : 18 : Hand card added <Hand->addCard()>
+2018-02-21 20:02:58.737426 : 19 : Card object created <Card->__init__()>
+2018-02-21 20:03:03.894313 : 20 : hit <gameOption()>
+2018-02-21 20:03:03.924306 : 21 : Deck popped <Deck->deckPopCard()>
+2018-02-21 20:03:03.949249 : 22 : Hand card added <Hand->addCard()>
+2018-02-21 20:03:03.999252 : 23 : Card object created <Card->__init__()>
+2018-02-21 20:03:04.027316 : 24 : Check for win <checkForWin()>
+2018-02-21 20:03:04.053313 : 25 : game_round: 1 <>
+2018-02-21 20:03:17.762767 : 26 : stand <gameOption()>
+2018-02-21 20:03:17.794740 : 27 : Deck popped <Deck->deckPopCard()>
+2018-02-21 20:03:17.816766 : 28 : Hand card added <Hand->addCard()>
+2018-02-21 20:03:17.855769 : 29 : Card object created <Card->__init__()>
+2018-02-21 20:03:17.883772 : 30 : Deck popped <Deck->deckPopCard()>
+2018-02-21 20:03:17.903777 : 31 : Hand card added <Hand->addCard()>
+2018-02-21 20:03:17.926773 : 32 : Card object created <Card->__init__()>
+2018-02-21 20:03:17.945853 : 33 : Check for win <checkForWin()>
+2018-02-21 20:03:17.972827 : 34 : Player wins ?stand = True <checkForWin()>
+2018-02-21 20:03:17.992786 : 35 : Bankroll added for 40 bucks <Player->addBankRoll()>
+2018-02-21 20:03:18.010861 : 36 : Bet cleared <Hand->clsBet()>
+2018-02-21 20:03:18.031786 : 37 : Hand cleared <Hand->clsHand()>
+2018-02-21 20:03:18.050756 : 38 : Hand cleared <Hand->clsHand()>
+2018-02-21 20:03:18.071864 : 39 : Deck popped <Deck->deckPopCard()>
+2018-02-21 20:03:18.089756 : 40 : Hand card added <Hand->addCard()>
+2018-02-21 20:03:18.107781 : 41 : Card object created <Card->__init__()>
+2018-02-21 20:03:18.125786 : 42 : Deck popped <Deck->deckPopCard()>
+2018-02-21 20:03:18.144867 : 43 : Hand card added <Hand->addCard()>
+2018-02-21 20:03:18.164793 : 44 : Card object created <Card->__init__()>
